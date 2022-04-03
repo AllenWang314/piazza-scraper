@@ -59,7 +59,7 @@ def main():
     # Log into account
     time.sleep(PAGE_WAIT_TIME)
     email = driver.find_element_by_xpath('//*[@id="email_field"]')
-    kerberos.send_keys(config.EMAIL)
+    email.send_keys(config.EMAIL)
     password = driver.find_element_by_xpath('//*[@id="password_field"]')
     password.send_keys(config.PASSWORD)
     driver.find_element_by_xpath('//*[@id="modal_login_button"]').click()
@@ -73,7 +73,7 @@ def main():
             invalid_ids.append(i)
     driver.quit()
 
-    mdFile = MdUtils(file_name='piazza_posts', title='6.033 Piazza Posts')
+    mdFile = MdUtils(file_name='output/piazza_posts', title='6.033 Piazza Posts')
 
     mdFile.new_paragraph("""This file includes all piazza posts scraped as of 
         noon 3/31. Only instructor and student answers have been included. 
