@@ -1,0 +1,4 @@
+EMAIL="your_piazza_email"
+PASSWORD="your_piazza_password"
+NUM_POSTS=679
+URL="https://piazza.com/class/kyypdylj1dk646"
