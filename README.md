@@ -14,3 +14,4 @@ scrape piazza posts for your class
 - scraper may take a while (took 1 hr for 600 posts on macbook pro), have thought about parallelizing it though which would be pretty cool using multiprocessing correctly with locks
 - config.py kinda important! make sure you put the correct url for your class's piazza and the number of posts you'd like to scrape
 - invalid post ids that were not successfully scraped are printed to console at the end
+- some of the selenium methods are deprecated so console mayn be flooded oops
