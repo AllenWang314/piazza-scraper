@@ -2,7 +2,7 @@
 scrape piazza posts for your class
 
 ## usage
-1. make an start a virtual environment e.g. ```virtualenv env && source env/bin/activate```
+1. make and start a virtual environment e.g. ```virtualenv env && source env/bin/activate```
 2. install requirements e.g. ```pip install -r requirements.txt```
 3. copy config.txt into config.py via ```cp config.txt config.py```
 4. write your piazza email and password securely into config.py
